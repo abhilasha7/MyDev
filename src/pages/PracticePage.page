@@ -1,0 +1,9 @@
+<apex:page controller="PracticePageController">
+    <apex:form >
+        <apex:pageBlock id="block1">
+            <apex:commandButton value="First Name" action="{!printUserInfo}" reRender="block1"/><p></p>
+            <apex:commandLink value="Remove" action="{!removeUserInfo}" reRender="block1" />
+            <apex:outputText value="{!u}" ></apex:outputText>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

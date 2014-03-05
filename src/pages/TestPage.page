@@ -1,0 +1,16 @@
+<apex:page >
+
+
+<apex:form >
+ 
+     
+            <c:Text text="abc" borderwidth="5"/>
+      
+ 
+
+    </apex:form>
+        
+    
+
+   
+</apex:page>
